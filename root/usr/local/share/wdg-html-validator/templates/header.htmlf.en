@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+   "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html lang=en>
+  <head>
+    <title>HTML Validation Results</title>
+    <base href="/cgi-bin/wdg-html-validator.pl">
+  </head>
+  <body>
+    <h1 style="text-align: center;">HTML Validation Results</h1>
+  
+    <hr style="margin-left: auto; margin-right: auto; width: 30%;">

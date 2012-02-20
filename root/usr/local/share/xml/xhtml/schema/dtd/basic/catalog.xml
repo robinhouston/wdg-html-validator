@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<!DOCTYPE catalog PUBLIC "-//GlobalTransCorp//DTD XML Catalogs V1.0-Based Extension V1.0//EN"
+    "http://globaltranscorp.org/oasis/catalog/xml/tr9401.dtd">
+
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
+         xmlns:soc="urn:oasis:names:tc:entity:xmlns:tr9401:catalog"
+         xmlns:unk="urn:oasis:names:tc:entity:xmlns:unknown"
+         >
+<group prefer="public">
+<!-- .......................................................................... -->
+<!-- File catalog  ............................................................ -->
+<!--  XHTML Basic Catalog Data File
+
+    Revision:  $Id: xhtml-basic10.cat,v 2.4 2000/12/18 21:42:58 mimasa Exp $ SMI
+
+    See "Entity Management", SGML Open Technical Resolution 9401 for detailed
+    information on supplying and using catalog data. This document is available
+    from OASIS at URL:
+
+        <http://www.oasis-open.org/html/tr9401.html>
+-->
+<!-- .......................................................................... -->
+<!-- SGML declaration associated with XML  .................................... -->
+<!-- This SGMLDECL has been replaced by the DTDDECL below -->
+<!-- SGMLDECL "xml1.dcl" -->
+<!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+<!-- XHTML Basic DTD modular driver file  ..................................... -->
+<public publicId="-//W3C//DTD XHTML Basic 1.0//EN" uri="xhtml-basic10.dtd"/>
+<soc:dtddecl publicId="-//W3C//DTD XHTML Basic 1.0//EN" uri="xml1.dcl"/>
+<!-- XHTML Basic framework module ............................................. -->
+<public publicId="-//W3C//ENTITIES XHTML Basic 1.0 Document Model 1.0//EN" uri="xhtml-basic10-model-1.mod"/>
+<!-- End of catalog data  ..................................................... -->
+<!-- .......................................................................... -->
+</group>
+</catalog>

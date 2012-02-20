@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+   "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html lang=en>
+  <head>
+    <title>HTML Validation Results</title>
+    <base href="/cgi-bin/wdg-html-validator.pl">
+    <script type="text/javascript">
+      <!--
+	var lastLineNum = null;
+
+	function highlight(lineNum) {
+		var line = "line" + lineNum;
+
+		if (document.all && document.all.item("line" + lineNum)) {
+
+			if (lastLineNum != null) {
+				var lastLine = document.all.item("line" + lastLineNum);
+				if (lastLine != null) {
+					lastLine.style.color = "";
+					lastLine.style.background = "";
+				}
+			}
+
+			var line = document.all.item("line" + lineNum);
+			if (line != null) {
+				line.style.color = "red";
+				line.style.background = "yellow";
+				lastLineNum = lineNum;
+			}
+
+		}
+	}
+
+      // -->
+    </script>
+  </head>
+  <body>
+    <center><h1>HTML Validation Results</h1></center>
+  
+    <center><hr width="30%" /></center>

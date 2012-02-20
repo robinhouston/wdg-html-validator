@@ -1,0 +1,10 @@
+-- 
+## ======================================================================
+## /etc/sgml/catalog : SGML Open Style super catalog
+## ======================================================================
+## Please use update-catalog(8) to modify this file.
+## ======================================================================
+--
+CATALOG /usr/local/etc/sgml/w3c-dtd-xhtml.cat
+CATALOG /usr/local/etc/sgml/xml-core.cat
+CATALOG /usr/local/etc/sgml/sgml-data.cat

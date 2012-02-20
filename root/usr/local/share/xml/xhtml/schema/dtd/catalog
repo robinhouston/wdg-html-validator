@@ -1,0 +1,38 @@
+-- ...................................................................... --
+-- HTML DTD and settings................................................. --
+-- ...................................................................... --
+
+-- public identifiers override system identifiers, if both are supplied   --
+OVERRIDE YES
+
+-- All the mappings provided below are unofficial. The list of official   --
+-- mappings according to the W3C is available at                          --
+--        http://www.w3.org/QA/2002/04/valid-dtd-list                     --
+
+-- These mappings are provided for conveniance for people who used them   --
+-- but they should not be used for new documents !                        --
+
+-- The Default DOCTYPE File ............................................. --
+-- Use the latest WWW standard if the doctype is html                     --
+-- This is commented out because this doctype may cause problems          --
+-- (for example, if another catalog contains a doctype for xhtml 4.01,    --
+--  the document could still be matched to the "default" xhtml1 depending --
+--  on the way the catalogs are ordered).                                 --
+-- Uncomment if you really want it but be careful--
+-- DOCTYPE html                            1.0/xhtml1-transitional.dtd --
+-- DOCTYPE HTML                            1.0/xhtml1-transitional.dtd --
+
+    -- generalized HTML reference, meaning 'latest HTML recommendation' --
+    --   aka, what is published at http://www.w3.org/TR/html --
+PUBLIC   "-//W3C//DTD HTML//EN"         1.0/xhtml1-transitional.dtd
+DTDDECL  "-//W3C//DTD HTML//EN"         1.0/xhtml1.dcl
+
+PUBLIC   "-//W3C//DTD XHTML//EN"        1.0/xhtml1-transitional.dtd
+DTDDECL  "-//W3C//DTD XHTML//EN"        1.0/xhtml1.dcl
+
+PUBLIC   "-//W3C//DTD XHTML 1//EN"      1.0/xhtml1-transitional.dtd
+DTDDECL  "-//W3C//DTD XHTML 1//EN"      1.0/xhtml1.dcl
+
+PUBLIC   "-//W3C//DTD XHTML Basic//EN" 	basic/xhtml-basic10.dtd
+DTDDECL  "-//W3C//DTD XHTML Basic//EN"  basic/xml1.dcl
+

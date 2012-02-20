@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<!DOCTYPE catalog PUBLIC "-//GlobalTransCorp//DTD XML Catalogs V1.0-Based Extension V1.0//EN"
+    "http://globaltranscorp.org/oasis/catalog/xml/tr9401.dtd">
+
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
+         xmlns:soc="urn:oasis:names:tc:entity:xmlns:tr9401:catalog"
+         xmlns:unk="urn:oasis:names:tc:entity:xmlns:unknown"
+         >
+<group prefer="public">
+<!-- ISO latin 1 entity set for Extensible HTML (XML 1.0 format) -->
+<public publicId="-//W3C//ENTITIES Latin 1 for XHTML//EN" uri="xhtml-lat1.ent"/>
+<public publicId="-//W3C//ENTITIES Symbols for XHTML//EN" uri="xhtml-symbol.ent"/>
+<public publicId="-//W3C//ENTITIES Special for XHTML//EN" uri="xhtml-special.ent"/>
+</group>
+</catalog>

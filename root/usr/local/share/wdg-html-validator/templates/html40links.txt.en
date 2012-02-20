@@ -1,0 +1,102 @@
+xml	http://www.w3.org/XML/
+non-empty elements	http://www.w3.org/TR/xhtml1/#h-4.3
+empty elements	http://www.w3.org/TR/xhtml1/#h-4.6
+attribute minimization	http://www.w3.org/TR/xhtml1/#h-4.5
+html 4.01 transitional	http://www.w3.org/TR/1999/REC-html401-19991224/sgml/loosedtd.htmli
+html 4.01 frameset	http://www.w3.org/TR/1999/REC-html401-19991224/sgml/framesetdtd.html
+html 4.01	http://www.w3.org/TR/html401/
+html 4.0 transitional	http://www.w3.org/TR/1999/REC-html401-19991224/sgml/loosedtd.html
+html 4.0 frameset	http://www.w3.org/TR/1999/REC-html401-19991224/sgml/framesetdtd.html
+html 4.0	http://www.w3.org/TR/html4/
+a	http://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html#h-12.2
+abbr	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+acronym	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+address	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.6
+applet	http://www.w3.org/TR/1999/REC-html401-19991224/struct/objects.html#h-13.3
+area	http://www.w3.org/TR/1999/REC-html401-19991224/struct/objects.html#h-13.6.1
+b	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.1
+base	http://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html#h-12.4
+basefont	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.2
+bdo	http://www.w3.org/TR/1999/REC-html401-19991224/struct/dirlang.html#h-8.2.4
+big	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.1
+blockquote	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.2
+body	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.1
+br	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.3.2
+button 	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.5
+caption	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.2
+center	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#edef-CENTER
+cite	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+code	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+col	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.4
+colgroup	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.4
+dd	http://www.w3.org/TR/1999/REC-html401-19991224/struct/lists.html#h-10.3
+del	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.3.5
+dfn	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+dir	http://www.w3.org/TR/1999/REC-html401-19991224/struct/lists.html#h-10.4
+div	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.4
+dl	http://www.w3.org/TR/1999/REC-html401-19991224/struct/lists.html#h-10.3
+dt	http://www.w3.org/TR/1999/REC-html401-19991224/struct/lists.html#h-10.3
+em	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+fieldset	thttp://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.10
+font	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.2
+form 	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.3
+frame	http://www.w3.org/TR/1999/REC-html401-19991224/present/frames.html#h-16.2.2
+frameset	http://www.w3.org/TR/1999/REC-html401-19991224/present/frames.html#h-16.2.1
+h1	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.5
+h2	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.5
+h3	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.5
+h4	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.5
+h5	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.5
+h6	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.5
+head	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.4.1
+hr	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.3
+html	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.3
+i	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.1
+iframe	http://www.w3.org/TR/1999/REC-html401-19991224/present/frames.html#h-16.5
+img	http://www.w3.org/TR/1999/REC-html401-19991224/struct/objects.html#h-13.2
+input 	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.4
+ins	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.3.5
+isindex	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.8
+kbd	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+label	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.9
+legend	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.10
+li	http://www.w3.org/TR/1999/REC-html401-19991224/struct/lists.html#h-10.2
+link	http://www.w3.org/TR/1999/REC-html401-19991224/struct/links.html#h-12.3
+map	http://www.w3.org/TR/1999/REC-html401-19991224/struct/objects.html#h-13.6.1
+menu	http://www.w3.org/TR/1999/REC-html401-19991224/struct/lists.html#h-10.4
+meta	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.4.4.2
+noframe	http://www.w3.org/TR/1999/REC-html401-19991224/present/frames.html#h-16.4.1
+noscript	http://www.w3.org/TR/1999/REC-html401-19991224/interact/scripts.html#h-18.3.1
+object	http://www.w3.org/TR/1999/REC-html401-19991224/struct/objects.html#h-13.3
+ol	http://www.w3.org/TR/1999/REC-html401-19991224/struct/lists.html#h-10.2
+optgroup	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.6
+option	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.6
+p	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.3.1
+param	http://www.w3.org/TR/1999/REC-html401-19991224/struct/objects.html#h-13.3.2
+pre	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.3.4
+q	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.2
+s	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.1
+samp	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+script	http://www.w3.org/TR/1999/REC-html401-19991224/interact/scripts.html#h-18.2.1
+select 	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.6
+small	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.1
+span	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.5.4
+strike	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.1
+strong	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1
+style	http://www.w3.org/TR/1999/REC-html401-19991224/present/styles.html#h-14.2.3
+sub	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.3
+sup	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.3
+table	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.1
+tbody	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.3
+td	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.6
+textarea	http://www.w3.org/TR/1999/REC-html401-19991224/interact/forms.html#h-17.7
+tfoot	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.3
+td	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.6
+th	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.6
+thead	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.3
+title	http://www.w3.org/TR/1999/REC-html401-19991224/struct/global.html#h-7.4.2
+tr	http://www.w3.org/TR/1999/REC-html401-19991224/struct/tables.html#h-11.2.5
+tt	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.1
+u	http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#h-15.2.1
+ul	http://www.w3.org/TR/1999/REC-html401-19991224/struct/lists.html#h-10.2
+var	http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#h-9.2.1

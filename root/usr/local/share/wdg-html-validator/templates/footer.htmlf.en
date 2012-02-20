@@ -1,0 +1,12 @@
+    <hr style="margin-left: auto; margin-right: auto; width: 30%;">
+    
+    <p style="text-align: center;">
+      <a href="../wdg-html-validator.html#url">Validate by URL</a> - 
+      <a href="../wdg-html-validator.html#file">Validate by file upload</a> -
+      <a href="../wdg-html-validator.html#direct">Validate by direct input</a> -
+      <a href="../wdg-html-validator.html#batch">Validate multiple URLs</a>
+    </p>
+    <hr style="margin-left: auto; margin-right: auto; width: 30%;">
+    <address>Developed and maintained by <a href="mailto:liam&#64;htmlh&#101;lp.com">Liam Quinn &lt;liam&#64;htmlh&#101;lp.com</a>&gt;</address>
+  </body>
+</html>

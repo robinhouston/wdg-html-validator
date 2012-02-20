@@ -1,0 +1,12 @@
+-- 
+## ======================================================================
+## /etc/sgml/w3c-dtd-xhtml.cat : SGML Open Style centralized catalog
+## ======================================================================
+## Please use update-catalog(8) to modify this file.
+## ======================================================================
+--
+CATALOG /usr/local/share/xml/xhtml/schema/dtd/1.0/catalog
+CATALOG /usr/local/share/xml/xhtml/schema/dtd/1.1/catalog
+CATALOG /usr/local/share/xml/xhtml/schema/dtd/basic/catalog
+CATALOG /usr/local/share/xml/xhtml/schema/dtd/catalog
+CATALOG /usr/local/share/xml/entities/xhtml/catalog

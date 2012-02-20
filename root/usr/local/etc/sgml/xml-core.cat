@@ -1,0 +1,8 @@
+-- 
+## ======================================================================
+## /etc/sgml/xml-core.cat : SGML Open Style centralized catalog
+## ======================================================================
+## Please use update-catalog(8) to modify this file.
+## ======================================================================
+--
+CATALOG /usr/local/share/sgml/dtd/xml-core/catalog

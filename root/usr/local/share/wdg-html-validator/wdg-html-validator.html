@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN"
+   "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+  <head>
+    <title>WDG HTML Validator</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">WDG HTML Validator</h1>
+
+    <hr style="margin-left: auto; margin-right: auto; width: 30%;">
+    <p>
+      WDG HTML Validator is a CGI script which checks web pages against
+      a validating SGML parser for conformance to official HTML standards.
+    </p>
+    <p>
+      You can:
+    </p>
+    <ul>
+      <li><a href="#url">validate an URL</a></li>
+      <li><a href="#file">validate files on your computer</a></li>
+      <li><a href="#direct">enter HTML code directly</a></li>
+      <li><a href="#batch">validate multiple URLs</a></li>
+    </ul>
+    
+    <hr style="margin-left: auto; margin-right: auto; width: 30%;">
+
+    <h3 id="url">
+      Validate an URL
+    </h3>
+    <p>
+      Enter the URL of an HTML document to validate:
+    </p>
+    <form action="/cgi-bin/wdg-html-validator.pl" method="get">
+      <p>
+        <input type="text" name="url" value="http://" size="45">
+        <input type=submit value="Validate">
+        <br />
+        <input type="checkbox" name="warnings" value="yes" checked>Include warnings
+        <input type="checkbox" name="input" value="yes" checked>Show input
+        <input type="checkbox" name="spider" value="yes">Validate entire site
+        <input type="checkbox" name="hidevalid" value="yes">Hide valid results
+      </p>
+    </form>
+    <p>
+      <br />
+    </p>
+   
+    <hr style="margin-left: auto; margin-right: auto; width: 30%;">
+    
+    <h3 id="file">
+      Validate files on your computer
+    </h3>
+    <p>
+      Select an HTML document from your computer to be uploaded for validation:
+    </p>
+    <form action="/cgi-bin/wdg-html-validator.pl" encType="multipart/form-data" method="post">
+      <p>
+        <input name="file" type="file" accept="text/html">
+        <input type="submit" value="Validate">
+        <br />
+        Charset: 
+        <select name="charset">
+          <option selected>ISO-8859-1</option> 
+          <option>ISO-8859-2</option> 
+          <option>ISO-8859-3</option> 
+          <option>ISO-8859-4</option> 
+          <option>ISO-8859-5</option> 
+          <option>ISO-8859-6-e</option> 
+          <option>ISO-8859-6-i</option> 
+          <option>ISO-8859-7</option> 
+          <option>ISO-8859-8</option> 
+          <option>ISO-8859-8-e</option> 
+          <option>ISO-8859-8-i</option> 
+          <option>ISO-8859-9</option> 
+          <option>ISO-8859-10</option> 
+          <option>ISO-8859-14</option> 
+          <option>ISO-8859-15</option> 
+          <option>UTF-8</option> 
+          <option>ISO-2022-JP</option> 
+          <option>EUC-JP</option> 
+          <option>Shift_JIS</option> 
+          <option>GB2312</option> 
+          <option>Big5</option> 
+          <option>EUC-KR</option> 
+          <option>windows-1250</option> 
+          <option>windows-1251</option> 
+          <option>ISO-8859-1-Windows-3.1-Latin-1</option> 
+          <option>windows-1253</option> 
+          <option>windows-1254</option> 
+          <option>windows-1255</option> 
+          <option>windows-1256</option> 
+          <option>windows-1257</option> 
+          <option>windows-1258</option> 
+          <option>KOI8-R</option> 
+          <option>KOI8-U</option> 
+          <option>cp866</option> 
+          <option>cp874</option> 
+          <option>TIS-620</option> 
+          <option>VISCII</option> 
+          <option>VPS</option> 
+          <option>TCVN-5712</option>
+        </select>
+        <br />
+        <input type="checkbox" name="warnings" value="yes" checked>Include warnings
+        <input checked name="input" type="checkbox" value="yes">Show input
+      </p>
+    </form>
+    <p>
+      <br />
+    </p>
+
+    <hr style="margin-left: auto; margin-right: auto; width: 30%;">
+
+    <h3 id="direct">
+      Enter HTML code directly
+    </h3>
+    <p>
+      Enter the HTML to be validated:
+    </p>
+    <form action="/cgi-bin/wdg-html-validator.pl" method="post">
+      <p>
+        <textarea name="area" id="area" rows="15" cols="80">
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  
+  &lt;/body&gt;
+&lt;/html&gt;
+        </textarea>
+        <br />
+        Charset: 
+        <select name="charset">
+          <option selected>ISO-8859-1</option> 
+          <option>ISO-8859-2</option> 
+          <option>ISO-8859-3</option> 
+          <option>ISO-8859-4</option> 
+          <option>ISO-8859-5</option> 
+          <option>ISO-8859-6-e</option> 
+          <option>ISO-8859-6-i</option> 
+          <option>ISO-8859-7</option> 
+          <option>ISO-8859-8</option> 
+          <option>ISO-8859-8-e</option> 
+          <option>ISO-8859-8-i</option> 
+          <option>ISO-8859-9</option> 
+          <option>ISO-8859-10</option> 
+          <option>ISO-8859-14</option> 
+          <option>ISO-8859-15</option> 
+          <option>UTF-8</option> 
+          <option>ISO-2022-JP</option> 
+          <option>EUC-JP</option> 
+          <option>Shift_JIS</option> 
+          <option>GB2312</option> 
+          <option>Big5</option> 
+          <option>EUC-KR</option> 
+          <option>windows-1250</option> 
+          <option>windows-1251</option> 
+          <option>ISO-8859-1-Windows-3.1-Latin-1</option> 
+          <option>windows-1253</option> 
+          <option>windows-1254</option> 
+          <option>windows-1255</option> 
+          <option>windows-1256</option> 
+          <option>windows-1257</option> 
+          <option>windows-1258</option> 
+          <option>KOI8-R</option> 
+          <option>KOI8-U</option> 
+          <option>cp866</option> 
+          <option>cp874</option> 
+          <option>TIS-620</option> 
+          <option>VISCII</option> 
+          <option>VPS</option> 
+          <option>TCVN-5712</option>
+        </select>
+        <br />
+        <input type="checkbox" name="warnings" value="yes" checked>Include warnings
+        <input checked name="input" type="checkbox" value="yes">Show input
+        <br />
+        <input type="submit" value="Validate">
+        <input type="reset" value="Clear form">
+      </p>
+    </form>
+    <p>    
+      <br />
+    </p>
+    
+    <hr style="margin-left: auto; margin-right: auto; width: 30%;">
+
+    <h3 id="batch">
+      Validate multiple URLs
+    </h3>
+    <p>
+      Enter the URLs of HTML documents to be validated, one by line:
+    </p>
+    <form action="/cgi-bin/wdg-html-validator.pl" method="post">
+      <p>
+        <textarea name="urls" rows="8" cols="80"></textarea>
+        <br />
+        <input type="checkbox" name="warnings" value="yes" checked>Include warnings
+        <input type="checkbox" name="input" value="yes" checked>Show input
+        <input type="checkbox" name="hidevalid" value="yes">Hide valid results
+        <br />
+        <input type="submit" value="Validate">
+        <input type="reset" value="Clear form">
+      </p>
+    </form>
+
+  </body>
+</html>
